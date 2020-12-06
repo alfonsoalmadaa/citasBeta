@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    android:label="@string/menu_configuracion"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.citas.ui.home.HomeFragment"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_home_to_citas"
+            app:destination="@id/nav_citas" />
+        <action
+            android:id="@+id/action_home_to_negocios"
+            app:destination="@id/nav_negocios" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_notificaciones"
+        android:name="com.example.citas.ui.notificaciones.NotificacionesFragment"
+        tools:layout="@layout/fragment_notificaciones" />
+
+    <fragment
+        android:id="@+id/nav_negocios"
+        android:name="com.example.citas.ui.negocios.NegociosFragment"
+        tools:layout="@layout/fragment_negocios" >
+        <action
+            android:id="@+id/action_nav_negocios_to_busquedaNegociosFragment"
+            app:destination="@id/busquedaNegociosFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_citas"
+        android:name="com.example.citas.ui.citas.CitasFragment"
+        tools:layout="@layout/fragment_citas" />
+
+    <fragment
+        android:id="@+id/busquedaNegociosFragment"
+        android:name="com.example.citas.ui.busqueda_negocios.busquedaNegociosFragment"
+        android:label="fragment_busquedanegocios"
+        tools:layout="@layout/fragment_busquedanegocios" >
+        <action
+            android:id="@+id/action_busquedaNegociosFragment_to_informacionNegociosFragment"
+            app:destination="@id/informacionNegociosFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/informacionNegociosFragment"
+        android:name="com.example.citas.ui.informacionNegocios.InformacionNegociosFragment"
+        tools:layout="@layout/fragment_informacionnegocios" />
+
+</navigation>

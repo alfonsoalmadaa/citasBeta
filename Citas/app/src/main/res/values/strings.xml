@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Citas App</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="about">Acerca de</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_notificaciones">Notificaciones</string>
+    <string name="menu_negocios">Negocios</string>
+    <string name="menu_configuracion">Configuración</string>
+    <string name="menu_citas">Citas</string>
+    <string name="menu_salir">Salir</string>
+    <string name="bienvenido_text">bienvenido_text</string>
+    <string name="bienvenid">Bienvenid@</string>
+    <string name="usuario_logo">usuario_logo</string>
+    <string name="mis_citas">Mis citas</string>
+    <string name="explorar">Explorar</string>
+    <string name="lupa_icon">lupa_icon</string>
+    <string name="proximas_citas">Mis próximas citas</string>
+    <string name="sushi_logo">sushi_logo</string>
+    <string name="fecha_cita">4 de noviembre 8:00 am</string>
+    <string name="lugar_cita">Sushi Kotori</string>
+    <string name="ver_mas">Ver más</string>
+    <string name="nuevos_negocios">Nuevos negocios</string>
+    <string name="calendario_text">Calendario</string>
+    <string name="fecha_actual">05 de noviembre</string>
+    <string name="hora_cita">7:00 am - 8:40 am</string>
+    <string name="direccion">Dirección: Enrique Segoviano</string>
+    <string name="buscar_ruta">Buscar ruta</string>
+    <string name="que_estas_buscando">¿Qué estas buscando?</string>
+    <string name="busca_un_negocio">Busca un negocio</string>
+    <string name="donde_estas">¿Dónde estas?</string>
+    <string name="usar_mi_direcci_n_actual">Usar mi dirección actual</string>
+    <string name="menos_1k"><![CDATA[< 1km]]></string>
+    <string name="cincuentaOmas">50+ km</string>
+    <string name="boton_buscar">Buscar</string>
+    <string name="categorias">Categorías principales</string>
+    <string name="barberias">Barberias</string>
+    <string name="imagensushinotification">imagensushinotification</string>
+    <string name="cita_notification">Cita_notification</string>
+    <string name="tienes_cita">Tienes una cita</string>
+    <string name="local">Local: Sushi Kotori</string>
+    <string name="textview">TextView</string>
+    <string name="local_card">Local:</string>
+    <string name="direcci_n">Dirección:</string>
+    <string name="tienes_una_cita">Tienes una cita</string>
+    <string name="textviewDistancia">TextView</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
